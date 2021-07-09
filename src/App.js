@@ -2,6 +2,7 @@ import "./styles.css";
 import Button from "./components/CustomButtonComponent";
 import SearchBar from "./components/SearchBar";
 import Jumbotron from "./components/Jumbotron";
+import makeDragable from "./utils/make-draggable";
 export default function App() {
   return (
     <div className="App">
